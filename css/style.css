@@ -53,5 +53,5 @@ a:hover {
     padding: 10px; /* Espaciado reducido */
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
