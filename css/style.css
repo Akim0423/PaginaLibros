@@ -27,7 +27,7 @@ nav {
     padding: 10px; /* Espaciado reducido */
 }
 
-nav ul {
+ul {
     display: flex;
     justify-content: flex-end;
     padding: 0;
@@ -35,16 +35,16 @@ nav ul {
     list-style: none; /* Elimina puntos de la lista */
 }
 
-nav li {
+li {
     margin: 0 10px; /* Espaciado reducido */
 }
 
-nav a {
+a {
     color: white;
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
