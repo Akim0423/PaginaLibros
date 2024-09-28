@@ -51,4 +51,6 @@ a:hover {
 /* Estilos del contenido */
 .content {
     padding: 10px; /* Espaciado reducido */
+    display: flex;
+    justify-content: center;
 }
