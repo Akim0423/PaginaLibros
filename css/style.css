@@ -1,60 +1,54 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif; /* Cambia la fuente */
-    margin: 0; /* Elimina márgenes predeterminados */
-    padding: 0; /* Elimina relleno predeterminado */
-    background-color: #f8f8f8; /* Color de fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
-/* Estilos del header */
-header {
-    background-color: #333; /* Color de fondo del header */
-    color: white; /* Color del texto en el header */
-    padding: 20px; /* Espaciado interno */
-}
-
-footer{
+/* Estilos del header y footer */
+header, footer {
     background-color: #333;
-    color: white; /* Color del texto en el header */
-    padding: 20px; /* Espaciado interno */
+    color: white;
+    padding: 10px; /* Espaciado reducido */
 }
 
+/* Contenedor */
 .container {
-    max-width: 1200px; /* Ancho máximo del contenedor */
-    margin: auto; /* Centra el contenedor */
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* Estilos de navegación */
 nav {
-    display: flex; /* Usa Flexbox para alinear los elementos en fila */
-    justify-content: space-between; /* Espacio entre los elementos */
-    align-items: center; /* Centra verticalmente los elementos */
-    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Espaciado reducido */
 }
 
 nav ul {
-    display: flex; /* Usa flexbox para alinear horizontalmente */
-    justify-content: flex-end; /* Alinear a la derecha */
-    padding: 0; /* Sin padding */
-    margin: 0; /* Sin margen */
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Elimina puntos de la lista */
 }
 
 nav li {
-    margin: 0 15px; /* Espaciado entre los elementos de la lista */
-    list-style: none;
+    margin: 0 10px; /* Espaciado reducido */
 }
 
 nav a {
-    color: white; /* Color del texto del enlace */
-    text-decoration: none; /* Elimina subrayado */
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Subrayado al pasar el mouse */
+    text-decoration: underline;
 }
 
 /* Estilos del contenido */
 .content {
-    padding: 20px; /* Espaciado interno para el contenido */
+    padding: 10px; /* Espaciado reducido */
 }
-
