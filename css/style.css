@@ -19,6 +19,10 @@ header, footer {
     margin: auto;
 }
 
+h2{
+    text-align: center;
+}
+
 /* Estilos de navegación */
 nav {
     display: flex;
@@ -51,7 +55,7 @@ a:hover {
 /* Estilos del contenido */
 .content {
     padding: 50px 10px; /* Espaciado superior e inferior ampliado */
-    text-align: center;
+    
     margin-bottom: 200px; /* Espaciado entre el div y la sección */
 }
 
