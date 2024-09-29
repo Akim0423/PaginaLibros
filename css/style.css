@@ -50,29 +50,32 @@ a:hover {
 
 /* Estilos del contenido */
 .content {
-    padding: 10px; /* Espaciado reducido */
+    padding: 50px 10px; /* Espaciado superior e inferior ampliado */
     text-align: center;
+    margin-bottom: 200px; /* Espaciado entre el div y la sección */
 }
 
+/* Estilos para la sección de imágenes */
 .image-section {
     display: flex; /* Usar Flexbox para alinear las imágenes en fila */
-    justify-content: space-around; /* Espacio alrededor de las imágenes */
-    padding: 20px; /* Añadir espacio alrededor de la sección */
+    justify-content: space-around; /* Espacio entre las imágenes */
+    padding: 50px; /* Espaciado alrededor de la sección */
     text-align: center; /* Centrar el texto */
+    margin-bottom: 200px; /* Mayor separación hacia abajo */
 }
 
 .image-container {
     flex: 1; /* Permitir que cada contenedor ocupe el mismo espacio */
-    margin: 0 10px; /* Espaciado entre las imágenes */
+    margin: 0 20px; /* Espaciado entre las imágenes */
+    max-width: 300px; /* Limitar el ancho máximo del contenedor */
 }
 
 .image-container img {
     width: 100%; /* Ajustar el ancho de la imagen al contenedor */
-    max-width: 200px; /* Limitar el ancho máximo de la imagen */
+    max-width: 300px; /* Mantener un ancho máximo más grande para las imágenes */
     height: auto; /* Mantener la proporción de la imagen */
 }
 
-.image-container p {
-    margin-top: 5px; /* Espaciado entre la imagen y el texto */
-    font-size: 14px; /* Tamaño de texto más pequeño */
+.image-container p, .image-container h3 {
+    margin-top: 10px; /* Mayor espaciado entre la imagen y el texto */
 }
