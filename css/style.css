@@ -55,8 +55,8 @@ a:hover {
 /* Estilos del contenido */
 .content {
     padding: 50px 10px; /* Espaciado superior e inferior ampliado */
-    margin: 0 auto 200px; /* Centrará el div y añadirá espacio inferior */
-    max-width: 1200px; /* Limitar el ancho máximo del contenido */
+    
+    margin-bottom: 200px; /* Espaciado entre el div y la sección */
 }
 
 /* Estilos para la sección de imágenes */
