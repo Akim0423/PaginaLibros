@@ -74,12 +74,4 @@ a:hover {
     max-width: 300px; /* Limitar el ancho máximo del contenedor */
 }
 
-.image-container img {
-    width: 100%; /* Ajustar el ancho de la imagen al contenedor */
-    max-width: 300px; /* Mantener un ancho máximo más grande para las imágenes */
-    height: auto; /* Mantener la proporción de la imagen */
-}
 
-.image-container p, .image-container h3 {
-    margin-top: 10px; /* Mayor espaciado entre la imagen y el texto */
-}
