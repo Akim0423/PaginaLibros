@@ -58,7 +58,6 @@ h2{
 .content {
     padding: 10px; /* Espaciado reducido */
     text-align: center;
-    padding-bottom: 80px;
 }
 
 .image-section {
@@ -76,4 +75,8 @@ h2{
 .image-container p {
     margin-top: 5px; /* Espaciado entre la imagen y el texto */
     font-size: 14px; /* Tamaño de texto más pequeño */
+}
+
+.imgprincp{
+    padding-bottom: 80px;
 }
