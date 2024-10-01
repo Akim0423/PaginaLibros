@@ -58,6 +58,7 @@ h2{
 .content {
     padding: 10px; /* Espaciado reducido */
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .image-section {
