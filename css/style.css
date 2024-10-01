@@ -95,12 +95,12 @@ h3{
 }
 
 button {
-    height: 91px;
-    width: 24px;
+    height: 24px;
+    width: 91px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    border: 1px solid black; /* Mostrar borde negro al pasar el cursor */
+    border: 2px solid black; /* Mostrar borde negro al pasar el cursor */
 }
