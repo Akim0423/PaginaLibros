@@ -21,6 +21,10 @@ header, footer {
     margin: auto;
 }
 
+.fondos{
+    background-color: bisque;
+}
+
 /* Estilos de navegación */
 nav {
     display: flex;
