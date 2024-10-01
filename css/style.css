@@ -93,3 +93,9 @@ h3{
 .imgprincp{
     padding-top: 80px;
 }
+
+button{
+    width: 91px;
+    height: 24px;
+    border: none;
+}
